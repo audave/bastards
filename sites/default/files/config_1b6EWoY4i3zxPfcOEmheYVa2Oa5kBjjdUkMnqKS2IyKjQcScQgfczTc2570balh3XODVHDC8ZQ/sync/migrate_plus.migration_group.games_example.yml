@@ -1,0 +1,12 @@
+uuid: 1e657697-3cf7-4053-b607-a63805d0b8ee
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: F_eJPLGhW3mrtP2EER3HpRa4wYz1TjMk9s_Gt1E3UiU
+id: games_example
+label: 'Games imports example'
+description: 'Simple test of migrating from google sheets.'
+source_type: 'Google Spreadsheet'
+module: null
+shared_configuration: null
