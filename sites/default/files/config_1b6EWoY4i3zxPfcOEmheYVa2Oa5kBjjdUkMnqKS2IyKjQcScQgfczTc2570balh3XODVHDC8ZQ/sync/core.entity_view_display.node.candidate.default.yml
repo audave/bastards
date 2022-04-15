@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.candidate.field_faction
     - field.field.node.candidate.field_gender
     - field.field.node.candidate.field_incumbent
+    - field.field.node.candidate.field_party
     - field.field.node.candidate.field_qualifications
     - field.field.node.candidate.field_religion
     - field.field.node.candidate.field_seat
@@ -60,6 +61,14 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     weight: 103
+    region: content
+  field_party:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 109
     region: content
   field_qualifications:
     type: entity_reference_label

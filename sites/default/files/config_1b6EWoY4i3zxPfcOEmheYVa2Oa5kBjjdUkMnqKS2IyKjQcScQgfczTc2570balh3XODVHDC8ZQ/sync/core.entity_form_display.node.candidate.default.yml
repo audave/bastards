@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.candidate.field_faction
     - field.field.node.candidate.field_gender
     - field.field.node.candidate.field_incumbent
+    - field.field.node.candidate.field_party
     - field.field.node.candidate.field_qualifications
     - field.field.node.candidate.field_religion
     - field.field.node.candidate.field_seat
@@ -72,6 +73,16 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  field_party:
+    type: entity_reference_autocomplete
+    weight: 129
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_qualifications:
     type: entity_reference_autocomplete

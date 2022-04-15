@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.candidate.field_faction
     - field.field.node.candidate.field_gender
     - field.field.node.candidate.field_incumbent
+    - field.field.node.candidate.field_party
     - field.field.node.candidate.field_qualifications
     - field.field.node.candidate.field_religion
     - field.field.node.candidate.field_seat
@@ -39,6 +40,7 @@ hidden:
   field_faction: true
   field_gender: true
   field_incumbent: true
+  field_party: true
   field_qualifications: true
   field_religion: true
   field_seat: true

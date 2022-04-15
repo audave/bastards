@@ -1,0 +1,10 @@
+uuid: 82543de2-4430-46ad-a539-2f5b4b762ad5
+langcode: en
+status: true
+dependencies: {  }
+id: bastards
+label: bastards
+description: ''
+source_type: null
+module: null
+shared_configuration: null
