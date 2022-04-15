@@ -1,0 +1,8 @@
+uuid: 3c8fc304-0075-4d48-a0ab-f563f962ad12
+langcode: en
+status: true
+dependencies: {  }
+name: Faction
+vid: faction
+description: ''
+weight: 0

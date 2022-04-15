@@ -1,0 +1,29 @@
+uuid: c3eb8c67-7726-443d-91d8-4ff4b6fe4944
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seat
+    - node.type.candidate
+    - node.type.seat
+id: node.candidate.field_seat
+field_name: field_seat
+entity_type: node
+bundle: candidate
+label: Seat
+description: 'Seat for which this person is a candidate'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      seat: seat
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

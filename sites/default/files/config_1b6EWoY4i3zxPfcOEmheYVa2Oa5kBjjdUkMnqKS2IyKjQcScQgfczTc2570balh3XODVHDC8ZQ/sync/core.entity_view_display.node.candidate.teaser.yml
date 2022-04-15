@@ -1,0 +1,44 @@
+uuid: 19605173-39b5-4df4-bcbf-5e18bb711789
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.candidate.body
+    - field.field.node.candidate.field_career
+    - field.field.node.candidate.field_faction
+    - field.field.node.candidate.field_gender
+    - field.field.node.candidate.field_incumbent
+    - field.field.node.candidate.field_qualifications
+    - field.field.node.candidate.field_religion
+    - field.field.node.candidate.field_seat
+    - node.type.candidate
+  module:
+    - text
+    - user
+id: node.candidate.teaser
+targetEntityType: node
+bundle: candidate
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_career: true
+  field_faction: true
+  field_gender: true
+  field_incumbent: true
+  field_qualifications: true
+  field_religion: true
+  field_seat: true

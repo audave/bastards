@@ -1,0 +1,93 @@
+uuid: 73c075a6-ee91-4a7f-95cd-ec24d4b40e2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.candidate.body
+    - field.field.node.candidate.field_career
+    - field.field.node.candidate.field_faction
+    - field.field.node.candidate.field_gender
+    - field.field.node.candidate.field_incumbent
+    - field.field.node.candidate.field_qualifications
+    - field.field.node.candidate.field_religion
+    - field.field.node.candidate.field_seat
+    - node.type.candidate
+  module:
+    - text
+    - user
+id: node.candidate.default
+targetEntityType: node
+bundle: candidate
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_career:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_faction:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_gender:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_incumbent:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_qualifications:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_religion:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_seat:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

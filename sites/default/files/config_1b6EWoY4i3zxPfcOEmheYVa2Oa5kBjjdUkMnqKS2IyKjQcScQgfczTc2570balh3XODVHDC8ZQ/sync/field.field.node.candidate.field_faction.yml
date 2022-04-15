@@ -1,0 +1,29 @@
+uuid: 09aa382e-9f0c-4625-be7d-369e60b61a19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faction
+    - node.type.candidate
+    - taxonomy.vocabulary.faction
+id: node.candidate.field_faction
+field_name: field_faction
+entity_type: node
+bundle: candidate
+label: Faction
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      faction: faction
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

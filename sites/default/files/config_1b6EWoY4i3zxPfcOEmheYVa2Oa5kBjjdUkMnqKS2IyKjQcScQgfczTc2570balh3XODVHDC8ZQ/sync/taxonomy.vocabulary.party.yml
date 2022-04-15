@@ -1,0 +1,8 @@
+uuid: cd9cae8f-fd11-4823-b78e-32276429c325
+langcode: en
+status: true
+dependencies: {  }
+name: Party
+vid: party
+description: ''
+weight: 0

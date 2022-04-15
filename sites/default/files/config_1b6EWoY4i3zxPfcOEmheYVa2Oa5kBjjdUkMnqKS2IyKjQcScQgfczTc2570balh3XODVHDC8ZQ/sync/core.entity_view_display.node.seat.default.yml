@@ -1,0 +1,28 @@
+uuid: 0c8fdd84-4f7e-423b-8ab1-e8866277b4c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.seat.body
+    - node.type.seat
+  module:
+    - text
+    - user
+id: node.seat.default
+targetEntityType: node
+bundle: seat
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

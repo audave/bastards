@@ -1,0 +1,23 @@
+uuid: a0de5631-8216-4591-b8a1-adced07f8934
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_incumbent
+    - node.type.candidate
+id: node.candidate.field_incumbent
+field_name: field_incumbent
+entity_type: node
+bundle: candidate
+label: Incumbent
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

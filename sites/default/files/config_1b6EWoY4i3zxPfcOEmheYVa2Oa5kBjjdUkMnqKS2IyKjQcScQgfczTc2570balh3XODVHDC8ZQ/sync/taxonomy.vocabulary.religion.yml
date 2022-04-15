@@ -1,0 +1,8 @@
+uuid: fa4fa7d9-552e-49c3-bbde-053c75d4577a
+langcode: en
+status: true
+dependencies: {  }
+name: Religion
+vid: religion
+description: ''
+weight: 0
